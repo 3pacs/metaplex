@@ -1,5 +1,4 @@
 # Stage 1: Compile and Build the app
-RUN npm install --save @netlify/plugin-nextjs
 
 # Node veersion
 FROM node:14.17.3-alpine as build
